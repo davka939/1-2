@@ -1,0 +1,409 @@
+.home {
+    position: relative;
+    width: 1440px;
+    height: 6033px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    /* Голд зэрэгцүүлэх */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Дээд талын header-д зай үлдээх */
+    padding-top: 60px; /* Header-ийн өндрийг харгалзан зай гаргах */
+  }
+  
+
+.banner-home{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+isolation: isolate;
+background-color: antiquewhite;
+position: relative;
+width: 1312px;
+height: 834px;
+
+border-radius: 10px;
+}
+
+
+
+/* heroshop */
+.heroshop-home{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 420px;
+height: 178px;
+margin-left: 750px;
+margin-top: 500px;
+background-color: brown;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+}
+
+
+.heads-home{
+/* heads */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+background-color: yellow;
+
+position: relative;
+width: 375px;
+height: 125px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+
+.category-home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+._001A {
+    width: 477px;
+    height: 285px;
+    flex: 0 0 auto;
+    background-color: red;
+}
+
+._002A {
+    width: 337px;
+    height: 285px;
+    flex: 0 0 auto;
+    background-color: red;
+
+}
+
+._003A {
+    width: 331px;
+    height: 590px;
+    flex: 0 0 auto;
+    background-color: red;
+
+}
+
+._004A,
+._005A {
+    width: 337px;
+    height: 285px;
+    flex: 0 0 auto;
+    background-color: red;
+
+}
+
+._005A{
+    width:477px;
+    margin-left: -140px;
+}
+
+/* Сүүлийн хоёр элемент том элементтэй мөрөнд байрлуулах */
+@media (min-width: 1024px) {
+    .category-home {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* 3 баганатай */
+        gap: 20px;
+    }
+
+    ._003A {
+        grid-column: 3 / 3; /* Дунд баганыг эзлэх */
+        grid-row: 1 / span 2; /* 2 мөрийг эзлэх */
+    }
+
+    ._004A {
+        grid-column: 1 / 2; /* Зүүн талд байх */
+        grid-row: 2 / 3;
+    }
+
+    ._005A {
+        grid-column: 2 / 4; /* Баруун талд байх */
+        grid-row: 2 / 3;
+    }
+}
+
+
+.head3-home{
+    /* head3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: relative;
+width: 891px;
+height: 125px;
+background-color: yellow;
+margin-bottom: 50px;
+}
+
+
+    .bestseller-home{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* 3 баганатай */
+        row-gap: 40px;
+        column-gap: 150px;
+        margin-bottom: 50px;
+}
+
+
+.itemA-home{
+/* itemA */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 0px 22px;
+gap: 22px;
+
+width: 303px;
+height: 307px;
+left: 69px;
+top: 2100px;
+
+background: #1B3363;
+border-radius: 10px;
+}
+
+.itemB-home{
+/* itemB */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 0px 22px;
+gap: 22px;
+
+width: 303px;
+height: 307px;
+left: 569px;
+top: 2100px;
+
+background: #1B3363;
+border-radius: 10px;
+}
+
+.itemC-home{
+/* itemC */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 0px 22px;
+gap: 22px;
+
+width: 303px;
+height: 307px;
+left: 1069px;
+top: 2100px;
+
+background: #1B3363;
+border-radius: 10px;
+}
+
+.itemE-home{
+/* itemE */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 0px 22px;
+gap: 22px;
+
+width: 303px;
+height: 307px;
+left: 69px;
+top: 2466px;
+
+background: #1B3363;
+border-radius: 10px;
+}
+
+.itemD-home{
+/* itemD */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 0px 22px;
+gap: 22px;
+
+width: 303px;
+height: 307px;
+left: 571px;
+top: 2466px;
+
+background: #1B3363;
+border-radius: 10px;
+}
+
+.itemI-home{
+/* itemI */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 0px 22px;
+gap: 22px;
+
+width: 303px;
+height: 307px;
+left: 1073px;
+top: 2467px;
+
+background: #1B3363;
+border-radius: 10px;
+}
+
+
+
+
+.banner2-home{
+/* banner2 */
+
+position: relative;
+display: flex;
+width: 1309px;
+height: 687px;
+background-color: black;
+margin-bottom: 50px;
+column-gap: 25px;
+}
+
+.zurag1-home{
+/* zurag1 */
+
+position: relative;
+
+width: 525px;
+height: 687px;
+/*background: url(idk_bagts.jpg);*/
+background-color: #1B3363;
+border-radius: 20px;
+}
+
+.zurag2-home{
+/* zurag2 */
+
+position: relative;
+
+width: 763px;
+height: 687px;
+/*
+background: url(erdenet gang.jpg);
+*/
+background-color: #1B3363;
+border-radius: 20px;
+}
+
+
+.zurag3-home{
+/* zurag3 */
+position: relative;
+
+width: 763px;
+height: 687px;
+/*
+background: url(erdenet gang.jpg);
+*/
+background-color: #1B3363;
+border-radius: 20px;
+}
+
+.zurag4-home{
+    /* zurag4 */
+position: relative;
+
+width: 525px;
+height: 687px;
+/*background: url(idk_bagts.jpg);*/
+background-color: #1B3363;
+border-radius: 20px;
+
+}
+
+
+.heads2-home{
+    /* heads2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 891px;
+height: 125px;
+left: 275px;
+top: 4508px;
+background-color: yellow;
+}
+
+
+.zurag5-home{
+    /* zurag4 */
+    position: relative;
+
+    width: 525px;
+    height: 687px;
+    /*background: url(idk_bagts.jpg);*/
+    background-color: #1B3363;
+    border-radius: 20px;
+}
+
+.zurag6-home{
+    /* zurag6 */
+    position: relative;
+
+    width: 763px;
+    height: 687px;
+    /*
+    background: url(erdenet gang.jpg);
+    */
+    background-color: #1B3363;
+    border-radius: 20px;
+}
+
+
+

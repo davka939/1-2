@@ -1,0 +1,140 @@
+.footer_container{
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -853px;
+    
+}
+
+.sub{
+    /* sub */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1304px;
+height: 560px;
+background-color: #1B3363;
+position: relative;
+margin-bottom: 40px;
+}
+
+.footer_f1{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    /* foooter */
+
+position: relative;
+width: 1300px;
+height: 193px;
+display: flex;
+gap: 30px;
+justify-content: space-between;
+align-items: flex-start; 
+}
+
+
+
+
+
+.logo-section-footer {
+    display: flex;
+    align-items :center;
+    width: 160px;
+  }
+  
+  .logo-footer {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .logo-icon-footer {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  
+  .logo-text-footer {
+    font-family: 'Vollkorn SC', serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1A1A1A;
+    padding-top: 10px;
+  }
+
+
+.description{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7px;
+
+    font-family: 'Quickstand', sans-serif;
+    font-weight:bolder;
+    font-size: 18px;
+    color: #1A1A1A;
+    transition: color 0.3s;
+}
+
+.nav-links-footer {
+  display: flex;
+  gap: 100px;
+}
+
+.nav-link-footer {
+  text-decoration: none;
+  font-family: 'Quickstand', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1A1A1A;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #0056b3;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.social-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:200px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    margin-top: 100px;
+    gap: 15px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    color: #1B3363;
+}
+
+
+.copyright{
+    justify-items: center;
+    width: 1300px;
+    height: 70px;
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99 / var(--tw-text-opacity, 1)) /* #4b5563 */;
+    border-top:1px solid;
+}
