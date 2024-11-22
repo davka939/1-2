@@ -5,15 +5,20 @@
     background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-    /* Голд зэрэгцүүлэх */
+    /* Ð“Ð¾Ð»Ð´ Ð·ÑÑ€ÑÐ³Ñ†Ò¯Ò¯Ð»ÑÑ… */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Дээд талын header-д зай үлдээх */
-    padding-top: 60px; /* Header-ийн өндрийг харгалзан зай гаргах */
+    justify-content: flex-start; /* Ð”ÑÑÐ´ Ñ‚Ð°Ð»Ñ‹Ð½ header-Ð´ Ð·Ð°Ð¹ Ò¯Ð»Ð´ÑÑÑ… */
+    padding-top: 60px; /* Header-Ð¸Ð¹Ð½ Ó©Ð½Ð´Ñ€Ð¸Ð¹Ð³ Ñ…Ð°Ñ€Ð³Ð°Ð»Ð·Ð°Ð½ Ð·Ð°Ð¹ Ð³Ð°Ñ€Ð³Ð°Ñ… */
   }
   
-
+.banner{
+    position:absolute; 
+    top: 0;
+    width: 100%;
+    border-radius: 10px;
+}
 .banner-home{
 /* Auto layout */
 display: flex;
@@ -22,37 +27,169 @@ justify-content: center;
 align-items: center;
 gap: 10px;
 isolation: isolate;
-background-color: antiquewhite;
 position: relative;
 width: 1312px;
 height: 834px;
-
-border-radius: 10px;
 }
 
 
+.heroshop{
+    position: relative;
+    width: 140px;
+    height: 100px;
+    border-radius: 5px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
 
+}
 /* heroshop */
 .heroshop-home{
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
 
-width: 420px;
-height: 178px;
-margin-left: 750px;
-margin-top: 500px;
-background-color: brown;
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-z-index: 1;
+    width: 420px;
+    height: 178px;
+    margin-left: 750px;
+    margin-top: 500px;
+    background-color: rgb(255, 255, 255);
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+    opacity: 0.9;
+    border-radius: 10px;
 }
-
-
+.heroshop-home h2{
+width: 263px;
+height: 23px;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: capitalize;
+color: #000000;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin-left: 180px;
+margin-top: -70px
+}
+.heroshop-home p{
+    margin-top: -10px;
+    margin-left: 180px;
+    font-family: 'Quicksand';
+    font-style: normal;
+}
+.heroshop-home button{
+    margin-left: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 120px;
+    height: 40px;
+    flex: none;
+    color:#ffffff;
+    background-color: #1B3363;
+    text-align: center;
+    margin-left: 180px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+.head-home h1{
+    width: 620px;
+    height: 53px;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+    color: #1B3363;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    align-items: center;
+    margin-left: 160px;
+    margin-top: 80px;
+}
+.head-home h2{
+    width: 495px;
+    height: 72px;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    color: #000000;
+    flex: none;
+    margin-top: -20px;
+    margin-left: 200px;
+}
+/* Ð¦Ð°Ð°Ñˆ Ò¯Ð·ÑÑ… */
+.heads-home h1{
+    width: 620px;
+    height: 53px;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+    color: #1B3363;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    align-items: center;
+    margin-left: 110px;
+    margin-top: -5px;
+}
+.heads-home h2{
+    width: 700px;
+    height: 72px;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    color: #000000;
+    flex: none;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+.head1-home h1{
+    height: 53px;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+    color: #1B3363;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.head1-home h2{
+    width: 650px;
+    height: 72px;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    color: #000000;
+    flex: none;
+    margin-top: -20px;
+    margin-left: 130px;
+}
 .heads-home{
 /* heads */
 
@@ -61,9 +198,6 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-
-background-color: yellow;
-
 position: relative;
 width: 375px;
 height: 125px;
@@ -71,7 +205,27 @@ margin-top: 50px;
 margin-bottom: 50px;
 }
 
+.bestshop{
+    position: relative;
+    width:303px; 
+    height:233px;
+    border-radius: 5px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border-radius: 10px;
+}
+.item{
+    width: 303px;
+    height: 307px;
+    background-color: #1B3363;
+    border-radius: 10px;
+}
+.item h2{
+    color:#FFFFFF; 
+    text-align: center;
 
+}
 .category-home {
     display: flex;
     flex-wrap: wrap;
@@ -121,26 +275,26 @@ margin-bottom: 50px;
     margin-left: -140px;
 }
 
-/* Сүүлийн хоёр элемент том элементтэй мөрөнд байрлуулах */
+/* Ð¡Ò¯Ò¯Ð»Ð¸Ð¹Ð½ Ñ…Ð¾Ñ‘Ñ€ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ñ‚Ð¾Ð¼ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‚ÑÐ¹ Ð¼Ó©Ñ€Ó©Ð½Ð´ Ð±Ð°Ð¹Ñ€Ð»ÑƒÑƒÐ»Ð°Ñ… */
 @media (min-width: 1024px) {
     .category-home {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr; /* 3 баганатай */
+        grid-template-columns: 1fr 1fr 1fr; /* 3 Ð±Ð°Ð³Ð°Ð½Ð°Ñ‚Ð°Ð¹ */
         gap: 20px;
     }
 
     ._003A {
-        grid-column: 3 / 3; /* Дунд баганыг эзлэх */
-        grid-row: 1 / span 2; /* 2 мөрийг эзлэх */
+        grid-column: 3 / 3; /* Ð”ÑƒÐ½Ð´ Ð±Ð°Ð³Ð°Ð½Ñ‹Ð³ ÑÐ·Ð»ÑÑ… */
+        grid-row: 1 / span 2; /* 2 Ð¼Ó©Ñ€Ð¸Ð¹Ð³ ÑÐ·Ð»ÑÑ… */
     }
 
     ._004A {
-        grid-column: 1 / 2; /* Зүүн талд байх */
+        grid-column: 1 / 2; /* Ð—Ò¯Ò¯Ð½ Ñ‚Ð°Ð»Ð´ Ð±Ð°Ð¹Ñ… */
         grid-row: 2 / 3;
     }
 
     ._005A {
-        grid-column: 2 / 4; /* Баруун талд байх */
+        grid-column: 2 / 4; /* Ð‘Ð°Ñ€ÑƒÑƒÐ½ Ñ‚Ð°Ð»Ð´ Ð±Ð°Ð¹Ñ… */
         grid-row: 2 / 3;
     }
 }
@@ -155,19 +309,52 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 0px;
-
 position: relative;
 width: 891px;
 height: 125px;
-background-color: yellow;
 margin-bottom: 50px;
 }
 
+.head3-home h1{
+    width: 620px;
+    height: 53px;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1B3363;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.head3-home h2{
+    width: 495px;
+    height: 72px;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 75px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1.2px;
+    text-transform: capitalize;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: -20px;
+}
 
     .bestseller-home{
         position: relative;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr; /* 3 баганатай */
+        grid-template-columns: 1fr 1fr 1fr; /* 3 Ð±Ð°Ð³Ð°Ð½Ð°Ñ‚Ð°Ð¹ */
         row-gap: 40px;
         column-gap: 150px;
         margin-bottom: 50px;
@@ -404,6 +591,5 @@ background-color: yellow;
     background-color: #1B3363;
     border-radius: 20px;
 }
-
 
 

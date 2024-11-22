@@ -1,5 +1,13 @@
 import React from 'react';
 import '../Styles/home.css';
+import banner from '../images/banner.png'
+import hero from '../images/hero.jpg'
+import item1 from '../images/item1.jpg'
+import item2 from '../images/item2.png'
+import item3 from '../images/item3.png'
+import item4 from '../images/item4.png'
+import item5 from '../images/item5.jpg'
+import item6 from '../images/item6.jpg'
 
 class Home extends React.Component {
   render() {
@@ -7,11 +15,19 @@ class Home extends React.Component {
       <div className="home">
 
         <div className='banner-home'>
-            banner
-            <div className='heroshop-home'>heroshop</div>
+        <img className="banner" src={banner}></img>
+            <div className='heroshop-home'>
+              <img className="heroshop" src={hero}></img>
+              <h2>Шоколадтай жигнэмэг</h2>
+              <p>Шоколад, Алмонд самартай жигнэмэг</p>
+              <button>Цааш үзэх</button>
+            </div>
         </div>
         
-        <div className='heads-home'>headds</div>
+        <div className='head-home'>
+          <h1>Амтлаг , Чанартай, Үргэлж шинэ</h1>
+          <h2>Бүтээгдэхүүний төрөл</h2>
+        </div>
 
     <div class="category-home">
     <div class="_001A"></div>
@@ -22,18 +38,42 @@ class Home extends React.Component {
 </div>
 
 
-        <div className='head3-home'>haed3</div>
+        <div className='heads-home'>
+        <h1>Бест селлер</h1>
+        <h2>Бүтээгдэхүүний төрөл</h2>
+        </div>
 
         <div class="bestseller-home">
-    <div class="itemA-home">Item A</div>
-    <div class="itemB-home">Item B</div>
-    <div class="itemC-home">Item C</div>
-    <div class="itemD-home">Item D</div>
-    <div class="itemE-home">Item E</div>
-    <div class="itemI-home">Item I</div>
+    <div class="item">
+      <img className="bestshop" src={item1}></img>
+      <h2>Аяган бялуу</h2>
+    </div>
+    <div class="item">
+      <img className="bestshop" src={item2}></img>
+      <h2>Тахианы чиабатта</h2>
+    </div>
+    <div class="item">
+      <img className="bestshop" src={item3}></img>
+      <h2>Артизан талх</h2>
+    </div>
+    <div class="item">
+      <img className="bestshop" src={item4}></img>
+      <h2>Жимстэй талх</h2>
+    </div>
+    <div class="item">
+      <img className="bestshop" src={item5}></img>
+      <h2>Аз жаргалын бялуу</h2>
+    </div>
+    <div class="item">
+      <img className="bestshop" src={item6}></img>
+      <h2>Шоколадтай бялуу </h2>
+    </div>
   </div>
 
-  <div className='head3-home'>haed4</div>
+  <div className='head1-home'>
+  <h1>Бест селлер</h1>
+  <h2>Шилдэг борлуулалттай бүтээгдэхүүн</h2>
+  </div>
 
 
   <div className='banner2-home'>
@@ -47,7 +87,7 @@ class Home extends React.Component {
   <div class="zurag4-home">zurag4</div>
   </div>
 
-  <div className='head3-home'>haed4</div>
+  <div className='heads-home'>haed4</div>
 
   <div className='banner2-home'>
   <div class="zurag5-home">zurag5</div>
