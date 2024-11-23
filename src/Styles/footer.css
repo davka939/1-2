@@ -1,9 +1,10 @@
+
 .footer_container{
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    margin-top: -853px;
-    
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: -853px;
+  
 }
 
 .sub{
@@ -21,7 +22,34 @@ background-color: #1B3363;
 position: relative;
 margin-bottom: 40px;
 }
+.overlay{
+  position: absolute;
+  top: 5%;
+  left: 17%;
+  justify-items: center;
+}
 
+.overlay p{
+  color: #1B3363;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+}
+
+.overlay h3{
+  text-align: center;
+  color: #ffffff;
+  font-size: 48px;
+}
+
+.overlay .email{
+  display: flex;
+  flex-direction: row;
+}
+form input{
+  width: 440px;
+  height: 40px;
+  border-radius: 30px;
+}
 .footer_f1{
     display: flex;
     flex-direction: column;

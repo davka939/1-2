@@ -4,7 +4,10 @@ class Contact extends React.Component{
     render(){
         return(
             <div className="page-contact">
-                <div className="head-contact"></div>
+                <div className="head-contact">
+                    <h5 className="pacifico-title">Бид нэг гэр бүл</h5>
+                    <h5 className="casual-title">Холбогдох</h5>
+                </div>
 
                 <div className="feedback-section-contact">
                 <div className="feedback-box-contact"></div>

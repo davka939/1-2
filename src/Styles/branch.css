@@ -1,4 +1,4 @@
-.page-branch{
+.page-branch {
     position: relative;
     width: 1440px;
     height: 5500px;
@@ -7,40 +7,67 @@
     justify-items: center;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
-    }
+}
+
 
 .google-map-branch{
     position: relative;
     width: 1301px;
     height: 807px;
     border-radius: 10px;
-    background-color: darkolivegreen;
-    margin-bottom: 50px;
+    padding-top: 50px;
     }
         
     .title-branch{
-        width: 574px;
-        height: 72px;
-        background-color: yellow;   
+        color: #1B3363;
+        font-size: 40px;
         margin-bottom: 50px;
+        width: 1500px;;
+        text-align: left;
         }
+    .title-branch h4{
+        margin-left: 100px;
+    }
 
     .branch-container-branch{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 55px;
-        background-color: gray;
         width: 1310px;
-        height: 3600px;
     }
     
     .branch-item-branch{
+        display:flex;
+        flex-direction: column;
+        gap: 0;
         width: 400px;
         height: 550px;
-        background-color: #1B3363;
+        background-color: #f1f1f1;
+        border-radius: 15px;
+        overflow: hidden;
     }
-
-    
-
-
+    .branch-item-branch img{
+        width: 400px;
+        height: 400px;
+    }
+    .branch-item-branch p{
+        margin:0 25px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #1B3363;
+    }
+    .name-container{
+        height: 45px;
+        background-color: #318CDD;
+        margin-bottom: 5px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .name-container h5{
+        margin: 7.5px;
+        font-size: 20px;
+    }
+.leaflet-container{
+    height: 100%;
+    border-radius: 10px;
+} 
