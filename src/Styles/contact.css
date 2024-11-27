@@ -28,18 +28,62 @@ margin-bottom: 50px;
     margin-bottom: 50px;
 }
 
+
 .feedback-box-contact{
 position: relative;
 width: 600px;
 height: 564px;
-background-color: grey;
+display: flex;
+flex-direction: column;
 }
+
+
+.feedback-box-title-contact{
+font-size: 20px;
+align-items: start;
+padding-left: 20px;
+}
+
+.feedback-box-top-contact{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.textfield-contact{
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    
+    width: 297px;
+    height: 57px;
+    background: rgba(27, 51, 99, 0.6);
+    border-radius: 30px;
+}
+.textfield-contact::placeholder{
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-left: 20px;
+    font-family: "Rubik";
+}
+
+    .question-field-contact{
+        flex-direction: row;
+width: 593px;
+height: 350px;
+
+background: rgba(27, 51, 99, 0.6);
+border-radius: 20px;
+margin-top: 20px;
+    }
+    
 
 .googlemap-contact{
     position: relative;
     width: 600px;
     height: 564px;
     background-color: darkolivegreen;
+    border-radius: 10px;
 }
 
 .meetus-contact{

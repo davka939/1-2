@@ -1,4 +1,5 @@
 import React, { useDebugValue } from "react";
+import MapOffice from "./map_office";
 import "../Styles/contact.css";
 class Contact extends React.Component{
     render(){
@@ -10,8 +11,17 @@ class Contact extends React.Component{
                 </div>
 
                 <div className="feedback-section-contact">
-                <div className="feedback-box-contact"></div>
-                <div className="googlemap-contact"></div>
+                <div className="feedback-box-contact">
+                    <p className="feedback-box-title-contact">Санал хүсэлт илгээх</p>
+                    <div className="feedback-box-top-contact">
+                    <input className="textfield-contact" placeholder="Таны нэр"></input>
+                    <input className="textfield-contact" placeholder="Имэйл хаяг"></input>
+                    </div>
+                        <input type="text" className="question-field-contact" placeholder="Имэйл хаяг"/>
+                </div>
+                <div className="googlemap-contact">
+                    <MapOffice/>
+                </div>
                 </div>
 
                 <div className="meetus-contact">

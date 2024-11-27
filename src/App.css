@@ -24,6 +24,38 @@
   color: white;
 }
 
+.email{
+  display: flex;
+  position: relative;
+}
+.pacifico-title{
+  font-size: 35px;  
+  font-family: "Pacifico", cursive;
+  
+  color: #1b3363;
+  text-align: center;
+  margin: 0;
+}
+.casual-title{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+.buttonStyle {
+  position: absolute;
+  left: 72%;
+  top: 10%;
+  background-color: #1b3363;
+  color: white;
+  border: none; 
+  width: 120px; 
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 300;
+}
+
 .App-link {
   color: #61dafb;
 }
