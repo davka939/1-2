@@ -23,7 +23,13 @@ const images = {
     dial: require('../images/dial.png'),
     worki: require('../images/worki.png'),
     zangia: require('../images/zangia.png'),
-    hrbanner: require('../images/HR_re.jpg')
+    hrbanner: require('../images/HR_re.jpg'),
+    1998: require('../images/1998.png'),
+    2002: require('../images/2002.png'),
+    2013: require('../images/2013.png'),
+    2016: require('../images/2016.png'),
+    2020: require('../images/2020.png'),
+    2024: require('../images/2024.png')
 };
 
 export default images;
