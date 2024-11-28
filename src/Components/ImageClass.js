@@ -16,7 +16,14 @@ const images = {
     sansar: require('../images/sansar.png'),
     parkod: require('../images/park od2.png'),
     erdenet: require('../images/erdenet.png'),
-    darhan: require('../images/darhan.png')
+    darhan: require('../images/darhan.png'),
+    minijurur: require('../images/minijurur.png'),
+    locationlogo: require('../images/locationlogo.png'),
+    mail: require('../images/mail.png'),
+    dial: require('../images/dial.png'),
+    worki: require('../images/worki.png'),
+    zangia: require('../images/zangia.png'),
+    hrbanner: require('../images/HR_re.jpg')
 };
 
 export default images;

@@ -1,10 +1,15 @@
 import React from "react";
-import "../App.css";
+import "../Styles/button.css"
 
-const Button = ({ name }) => {
+const Button = ({ name, position }) => {
+
+  const dynamicStyle ={
+    left: position?.left,
+    top: position?.top
+  }
   return (
     <div className="inputButtonContainer">
-      <button type="submit" className="buttonStyle">{name}</button>
+      <button type="submit" className="buttonStyle" style={dynamicStyle}>{name}</button>
     </div>
   );
 };
