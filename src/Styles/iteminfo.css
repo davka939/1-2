@@ -1,0 +1,31 @@
+.page-iteminfo{
+    position: relative;
+    width: 1440px;
+    height: 2246px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container-iteminfo{
+    width: 1040px;
+    height: 600px;
+    gap:50px;
+    padding-top: 50px;
+    display: flex;
+}
+
+.info-container-iteminfo img{
+    height: 550px;
+    width: 550px;
+    border-radius: 10xp;
+    object-fit: cover;
+}
+
+.description-container-iteminfo{
+    width: 400px;
+    height: auto;
+    flex-direction: column;
+}

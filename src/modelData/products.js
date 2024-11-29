@@ -1,85 +1,56 @@
 "use strict";
 
+
 (function () {
-  // products
+  const products = [
+    {
+      _id: "1",
+      name: "Юникорн",
+      description: "Шоколадтай кекстэй, шоколадтай маслон крем, шоколадны бөмбөлөгний хавчуургатай. Гадна талаараа бүрсэн хүүхдийн бялуу",
+      price: ["43,000", "50,000"],
+      order_code: 12556,
+      category: "happy_cake",
+      size: ["8инч", "9инч"],
+      picture_path: "product1"
+    },
+    {
+      _id: "2",
+      name: "Шоколадтай Бялуу",
+      description: "Амтат шоколадтай жинхэнэ баярын бялуу.",
+      price: ["43,000", "50,000"],
+      order_code: 12557,
+      category: "brand_cake",
+      size: ["7инч", "8инч"],
+      picture_path: "choco_cake.jpg"
 
-  const product1 = {
-    _id: "1",
-    name: "Юникорн",
-    description: "Шоколадтай кекстэй, шоколадтай маслон крем, шоколадны бөмбөлөгний хавчуургатай. Гадна талаараа бүрсэн хүүхдийн бялуу",
-    order_code: 12556,
-    category: "Mathematician",
-    size: ["8инч", "9инч"],
-  };  
-
-  const products = [im, er, pt, rk, al, jo];
-
-  // Create initial photos.
-  const photo1 = {
-    _id: "1",
-    file_name: "ouster.jpg",
-    product_id: product1._id,
-  };
-
-  const photos = [
-    photo1,
-    photo2,
-    photo3,
-    photo4,
-    photo5,
-    photo6,
-    photo7,
-    photo8,
-    photo9,
-    photo10,
-    photo11,
-    photo12,
+    },
+    // Бусад бүтээгдэхүүнийг нэмнэ...
   ];
 
 
-
+  
   const productListModel = function () {
     return products;
   };
 
-  const userModel = function (userId) {
-    for (let i = 0; i < users.length; i++) {
-      if (users[i]._id === userId) {
-        return users[i];
-      }
-    }
-    return null;
+  const productModel = function (productId) {
+    return products.find((product) => product._id === productId) || null;
   };
-
-  const productModel = function (productId){
-    for(let i=0; i<products.length, i++;){
-        if(products[i]._id==productId){
-            return products[i];
-        }
-    }
-    return null;
-  }
-
-  const photoOfProduct = function (productId) {
-    return photos.filter(function (photo) {
-      return photo.product_id === productId;
-    });
+  
+  const categoryProducts = function (category) {
+    return products.filter((product) => product.category === category);
   };
 
 
-  const cs142models = {
+  const ProductModels = {
     productListModel: productListModel,
     productModel: productModel,
-    photoOfProduct: photoOfProduct,
+    categoryProducts: categoryProducts,
   };
 
   if (typeof exports !== "undefined") {
-    // We're being loaded by the Node.js module loader ('require') so we use its
-    // conventions of returning the object in exports.
-    exports.cs142models = cs142models;
+    exports.ProductModels = ProductModels;
   } else {
-    // We're not in the Node.js module loader so we assume we're being loaded by
-    // the browser into the DOM.
-    window.cs142models = cs142models;
+    window.ProductModels = ProductModels;
   }
 })();

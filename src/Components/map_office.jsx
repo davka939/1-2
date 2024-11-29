@@ -6,7 +6,7 @@ import {MapContainer, TileLayer,Marker,Popup} from "react-leaflet"
 const MapOffice = ()=>{
     const  markers =[
         {
-            geocode:[47.923362048190526, 106.87557577174712],
+            geocode:[47.919204,106.914375],
             popUp:"Төв оффис"
         }
     ];
