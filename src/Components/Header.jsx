@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../Styles/header.css';
 import logo from '../images/logo.png';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+
 
 const Header = () => {
   return (
@@ -11,8 +14,10 @@ const Header = () => {
           <div className="logo">
             <img className="logo-icon" src={logo}></img>
             <span className="logo-text">Jur Ur</span>
+            <div class="vertical-line"></div>
           </div>
         </div>
+        
 
         <nav className="nav-links">
           <Link to="/" className="nav-link">Нүүр</Link>
@@ -24,7 +29,9 @@ const Header = () => {
         
         <div className="search-section">
           <input type="text" className="search-input" placeholder="Хайх" />
-          <div className="search-button">🔍</div>
+          <div className="search-button">
+            <button className="search-button" type='submit'><FontAwesomeIcon icon={faSearch} /></button>
+          </div>
         </div>
       </div>
     </header>

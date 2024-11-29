@@ -45,9 +45,14 @@ display: flex;
 flex-direction: row;
 }
 form input{
-width: 440px;
-height: 40px;
-border-radius: 30px;
+  width: 440px;
+  height: 40px;
+  border-radius: 30px;
+}
+.email input::placeholder{
+  padding-left: 20px;
+  font-size: 16px;
+  color: #1A1A1A;
 }
 .footer_f1{
   display: flex;
@@ -64,11 +69,14 @@ gap: 30px;
 justify-content: space-between;
 align-items: flex-start; 
 }
-
-
-
-
-
+.email{
+  display: flex;
+  position: relative;
+}
+.footerButtonStyle {
+  left: 75%;
+  
+}
 .logo-section-footer {
   display: flex;
   align-items :center;
