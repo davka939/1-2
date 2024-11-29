@@ -1,0 +1,11 @@
+.buttonStyle {
+    position: absolute;
+    background-color: #1b3363;
+    color: white;
+    border: none; 
+    width: 120px; 
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 700;
+  }

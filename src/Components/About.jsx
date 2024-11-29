@@ -1,13 +1,118 @@
 import React from "react";
 import '../Styles/about.css';
 
-
+import images from "./ImageClass";
 class About extends React.Component{
     render(){
         return(
         <div className="about">
-            <div className="heads-ab"></div>
-            <div className="history-ab">history</div>
+            <div className="heads-ab">
+                <h5 className="pacifico-title">Бидний Тухай</h5>
+                <h5 className="casual-title">26-н Жилийн Туршлага</h5>
+            </div>
+            <div className="history-ab">
+                <div className="left-column">
+                    <div class="timeline-content">
+                        <img src={images[1998]} alt="founding" />
+                    </div>
+                    <div class="timeline-content">
+                    <h3>Анхны Бэйкери Салбараа Байгуулав</h3>
+                    <p>“Жүр үр”-ийнхэн бид “Аз жаргалаа хуваалцъя” уриан дор 
+                        2002 онд анхны бэйкери салбараа байгуулан улмаар Амтлаг 
+                        нандин бүтээгдэхүүнээ шив шинэхнээр нь хэрэглэгчдэдээ хүргэх зорилгоор 
+                        халуун цехийн амтлаг, нандин шинэхэн бэйкери бүтээгдэхүүн, нэрийн жүүс, 
+                        халуун кофе, тохилог орчны цогц үйлчилгээтэй “Жүр үр”-ийн Бэйкери үндсэн 
+                        12 салбар өнөөдөр нийслэлд хүмүүсийн зорин очих дуртай газруудын нэг болсон.</p>
+                    </div>
+                    <div class="timeline-content">
+                        <img src={images[2013]} alt="founding" />
+                    </div>
+                    <div class="timeline-content">
+                    <h3>ТОП-100 Аж ахуйн нэгээр шалгарав</h3>
+                    <p>2016 онд Жүр Yp бэйкери хэрэглэгчиддээ улам ойртож Сонгинохайрхан дүүрэг 
+                        Цамбагаравт шинэ салбараа нээж үйл ажиллагаагаа явуулж эхэлсэн. "Улаанбаатар Түншлэл - 2016" 
+                        үзэсгэлэнд  яармагт оролцож амт чанараа улам үйлчлүүлэгчиддээ таниулсаар байна. 4-р сарын 27-нд 
+                        Монголын Үндэсний Худалдаа Аж Үйлдвэрийн Танхим, Монгол Улсын газраас хамтран 2016 оны “ТОП-100” 
+                        аж ахуйн нэгжийг өргөмжлөх ёслолын ажиллагааг зохион байгуулж, ТОП аж ахуйн нэгжүүдэд 13 хүнсний 
+                        үйлдвэрлэлийн байгууллага шалгарсны нэг нь ‘’Жүр үр’’ компани байна.</p>
+                    </div>
+                    <div class="timeline-content">
+                        <img src={images[2020]} alt="founding" />
+                    </div>
+                    <div class="timeline-content">
+                    <h3>ЧАНАР-ИТГЭЛ-ИРЭЭДҮЙ</h3>
+                    <p>Үндэсний манлай үйлдвэрлэгч, Монголын топ 100 аж ахуй нэгжийн нэг “Жүр Үр”ХХКнь 1300 гаруй 
+                        ажилтантайгаар үйл ажиллагаагаа явуулж байна.Бид бялуу, бейкери бүтээгдэхүүний нэр төрлөө
+                         өдрөөс өдөрт нэмэгдүүлж, шинэчлэлт хөгжүүлэлт хийсээр одоогийн байдлаар 40 гаруй нэрийн 
+                         бялуу,150нэрийн бейкери бүтээгдэхүүнээ Улаанбаатар, Дархан, Эрдэнэт, Арвайхээр хотуудад 
+                         өөрийн үндсэн 30 гаруй салбар, 8 Инстори салбараар дамжуулан хэрэглэгчдэд хүргэж байна. </p>
+                    </div>
+                </div>
+                <div className="center-column">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div className="timeline-line"></div>
+                            <h3>1998</h3>
+                        </div>
+                        <div class="timeline-item-left">
+                            <h3>1998</h3>
+                            <div className="timeline-line"></div>
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div className="timeline-line"></div>
+                            <h3>1998</h3>
+                        </div>
+                        <div class="timeline-item-left">
+                            <h3>1998</h3>
+                            <div className="timeline-line"></div>
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div className="timeline-line"></div>
+                            <h3>1998</h3>
+                        </div>
+                        <div class="timeline-item-left">
+                            <h3>1998</h3>
+                            <div className="timeline-line"></div>
+                            <div class="timeline-dot"></div>
+                        </div>
+                    </div>
+                </div>
+                <div className="right-column">
+                    <div class="timeline-content">
+                        <h3>Үүсгэн Байгуулагдав</h3>
+                        <p>1998 онд Монголын хүнс үйлдвэрлэлийн салбарт нэгэн шинэ компани мэндэлсэн нь
+                             “Жүр Үр” компани байлаа. Хүмүүст өөрсдийн бялуу, амттанаараа эм мэт ач тус өгөхийг билэгдэн ургамлын 
+                            гурван дээд үрийн нэг жүр үрийн нэрээр компаниа нэрлэж байсан түүхтэй.</p>
+                    </div>
+                    <div class="timeline-content">
+                        <img src={images[2002]} alt="" />
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Үүсгэн Байгуулагдав</h3>
+                        <p>1998 онд Монголын хүнс үйлдвэрлэлийн салбарт нэгэн шинэ компани мэндэлсэн нь
+                             “Жүр Үр” компани байлаа. Хүмүүст өөрсдийн бялуу, амттанаараа эм мэт ач тус өгөхийг билэгдэн ургамлын 
+                            гурван дээд үрийн нэг жүр үрийн нэрээр компаниа нэрлэж байсан түүхтэй.</p>
+                    </div>
+                    <div class="timeline-content">
+                        <img src={images[2016]} alt="" />
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Инстори салбараа нээв</h3>
+                        <p>Иргэдэд хүрч үйлчлэхийг бүхнээс чухалчилдаг бид дэлгүүр доторх Бэйкери 
+                            дэлгүүр буюу Инстори салбараа 2013 онд Номин сүлжээ дэлгүүрт анх нээснээс 
+                            хойш томоохон дэлгүүрүүдэд ийм 7 салбар, Имарт дэлгүүрт 3 салбараа байгуулан 
+                            улам ойрхноос хэрэглэгчдэдээ амттанаа хүргэж байна.</p>
+                    </div>
+                    <div class="timeline-content">
+                        <img src={images[2024]} alt="" />
+                    </div>
+                </div>
+            </div>
             <div className="description-ab">
 Эмийн дээд 3 үрийн нэг болох “ЖҮР ҮР” хэмээх нэр нь “ үр-өсөж үржихийн бэлгэ тэмдэг, хүнс-эм мэт хүний биед ашиг тустай байх, сайн үйлийн үрийг ямагт тарьж сайн үйлсийг бүтээж явах”-ыг бэлгэдэн нэрлэсэн нь өдгөө Монголчуудын танил үндэсний брэнд болон хөгжсөн түүхтэй.
 <br/> <br/>

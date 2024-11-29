@@ -16,7 +16,7 @@ class Footer extends React.Component{
                     <h3>Та имэйл хаягаа бүртгүүлэн <br/> бидний үйлчилгээний мэдээлэлийг <br/>цаг алдалгүй авах боломжтой</h3>
                     <form action="" className="email">
                       <input type="email" className="inputStyle" placeholder="Имэйл хаягаа оруулна уу..." />
-                      <Button name={"Бүртгүүлэх"}></Button>
+                      <Button name={"Бүртгүүлэх"} position={{left:"72%", top:"10%"}}></Button>
                     </form>
                   </div>
                 </div>
