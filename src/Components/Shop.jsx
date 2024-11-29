@@ -12,7 +12,7 @@ class Shop extends React.Component {
   handleCategory(category) {
     this.setState({ selectedCategory: category });
   }
-
+  
   render() {
     return (
       <div className="shop">
