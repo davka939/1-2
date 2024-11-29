@@ -1,6 +1,4 @@
 import React, { useDebugValue } from "react";
-import MapOffice from "./map_office";
-import React from "react";
 import "../Styles/contact.css";
 import Button from "./Button";
 import  Map  from "./Map";
