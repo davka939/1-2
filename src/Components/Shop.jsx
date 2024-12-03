@@ -1,5 +1,5 @@
 import React from "react";
-import '../Styles/Shop.css';
+import "../Styles/Shop.css";
 import Shop_cat from "./Shop_cat";
 
 class Shop extends React.Component {
@@ -9,11 +9,21 @@ class Shop extends React.Component {
     this.handleCategory = this.handleCategory.bind(this);
   }
 
-  handleCategory(category) {
-    this.setState({ selectedCategory: category });
+  handleCategory(event) {
+    this.setState({ selectedCategory: event.target.value });
   }
-  
+
   render() {
+    const categories = [
+      { id: "new_products", name: "Шинэ Бүтээгдэхүүн" },
+      { id: "happy_cake", name: "Аз Жаргалын Бялуу" },
+      { id: "brand_cake", name: "Брэнд Бялуу" },
+      { id: "bread", name: "Талх, Нарийн Боов" },
+      { id: "salat_sandwich", name: "Слат, Сэндвич" },
+      { id: "dessert", name: "Дессерт" },
+      { id: "drinks", name: "Уух Зүйлс" },
+    ];
+
     return (
       <div className="shop">
         <div className="article-shop">
@@ -28,22 +38,19 @@ class Shop extends React.Component {
             <div className="cat-title-shop">
               <div className="casual-title category-sidebar-title-shop">Категори</div>
             </div>
-            {[
-              { id: "new_products", name: "Шинэ Бүтээгдэхүүн" },
-              { id: "happy_cake", name: "Аз Жаргалын Бялуу" },
-              { id: "brand_cake", name: "Брэнд Бялуу" },
-              { id: "bread", name: "Талх, Нарийн Боов" },
-              { id: "salat_sandwich", name: "Слат, Сэндвич" },
-              { id: "dessert", name: "Дессерт" },
-              { id: "drinks", name: "Уух Зүйлс" },
-            ].map((category) => (
-              <div
-                key={category.id}
-                className="cat-sidebar-item-shop"
-                onClick={() => this.handleCategory(category.id)}
-              >
-                <label>{category.name}</label>
-              </div>
+            {categories.map((category) => (
+              <label key={category.id} className="cat-sidebar-item-shop custom-radio">
+                <input
+                  type="radio"
+                  name="category"
+                  value={category.id}
+                  checked={this.state.selectedCategory === category.id}
+                  onChange={this.handleCategory}
+                  className="custom-radio-input"
+                />
+                <span className="custom-radio-box"></span>
+                {category.name}
+              </label>
             ))}
           </div>
 

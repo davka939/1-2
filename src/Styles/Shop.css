@@ -47,7 +47,6 @@ margin-bottom: 20px;
     display: flex;
     gap: 30px;
     padding: 20px;
-    background-color: #f8f8f8;
     border-radius: 10px;
   }
   
@@ -58,7 +57,6 @@ margin-bottom: 20px;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    background-color: #f0f8ff;
     padding: 20px;
     border-radius: 10px;
   }
@@ -73,23 +71,17 @@ margin-bottom: 20px;
     gap: 10px;
     width: 100%;
     height: 50px;
-    background: #d3d3d3;
     border-radius: 5px;
     padding-left: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
+    font-size: large;
   }
   
   .cat-sidebar-item-shop:hover {
     background-color: #b0c4de;
   }
-  
-  .cat-sidebar-item-shop input[type="checkbox"] {
-    width: 18px;
-    height: 18px;
-    accent-color: #1b3363;
-  }
-  
+
   .cat-sidebar-item-shop label {
     font-size: 16px;
     color: #333;
@@ -102,7 +94,6 @@ margin-bottom: 20px;
     flex: 1;
     flex-direction: column;
     align-items: center;
-    background: #fef4e8;
     border-radius: 10px;
     padding: 20px;
   }
@@ -133,7 +124,7 @@ margin-bottom: 20px;
     height: 250px;
     border-radius: 10px;
     object-fit: cover; 
-
+    background-color: #D9D9D9;
   }
 
   .category-item-title-shop {
@@ -149,5 +140,47 @@ margin-bottom: 20px;
   .category-item-shop:hover {
     background: #4169e1;
     transform: translateY(-5px);
+  }
+  
+  .custom-radio {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .custom-radio-input {
+    display: none;
+  }
+  
+  .custom-radio-box {
+    width: 20px;
+    height: 20px;
+    background-color: #CACACA;
+    border-radius: 4px; /* Дөрвөлжин болгож байна */
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-radio-box::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #1b3363;
+    opacity: 0;
+    border-radius: 2px; /* Дөрвөлжин сонголт дотор */
+    transition: all 0.3s ease;
+  }
+  
+  .custom-radio-input:checked + .custom-radio-box::after {
+    opacity: 1;
+  }
+  
+  .custom-radio:hover .custom-radio-box {
+    border-color: #3e8e41;
   }
   
