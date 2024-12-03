@@ -1,16 +1,15 @@
+
 .home {
     position: relative;
     width: 1440px;
     height: 6033px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-    /* Ð“Ð¾Ð»Ð´ Ð·ÑÑ€ÑÐ³Ñ†Ò¯Ò¯Ð»ÑÑ… */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Ð”ÑÑÐ´ Ñ‚Ð°Ð»Ñ‹Ð½ header-Ð´ Ð·Ð°Ð¹ Ò¯Ð»Ð´ÑÑÑ… */
-    padding-top: 60px; /* Header-Ð¸Ð¹Ð½ Ó©Ð½Ð´Ñ€Ð¸Ð¹Ð³ Ñ…Ð°Ñ€Ð³Ð°Ð»Ð·Ð°Ð½ Ð·Ð°Ð¹ Ð³Ð°Ñ€Ð³Ð°Ñ… */
+    justify-content: flex-start; 
+    padding-top: 60px;
   }
   
 .banner{
@@ -20,19 +19,16 @@
     border-radius: 10px;
 }
 .banner-home{
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
-isolation: isolate;
-position: relative;
-width: 1312px;
-height: 834px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    isolation: isolate;
+    position: relative;
+    width: 1312px;
+    height: 834px;
 }
-
-
 .heroshop{
     position: relative;
     width: 140px;
@@ -44,22 +40,18 @@ height: 834px;
     top: 15px;
     margin-left: 10px;
     border-radius: 10px;
-
 }
-/* heroshop */
+
 .heroshop-home{
-    /* Auto layout */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     width: 420px;
     height: 178px;
     margin-left: 750px;
     margin-top: 500px;
     background-color: rgb(255, 255, 255);
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -68,21 +60,21 @@ height: 834px;
     border-radius: 10px;
 }
 .heroshop-home h2{
-width: 263px;
-height: 23px;
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-text-transform: capitalize;
-color: #000000;
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin-left: 180px;
-margin-top: -70px
+    width: 263px;
+    height: 23px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: 180px;
+    margin-top: -70px
 }
 .heroshop-home p{
     margin-top: -10px;
@@ -92,19 +84,17 @@ margin-top: -70px
 }
 .heroshop-home button{
     margin-left: 180px;
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 0px;
     width: 120px;
     height: 40px;
-    flex: none;
     color:#ffffff;
-    background-color: #1B3363;
-    text-align: center;
-    margin-left: 180px;
-    margin-top: 15px;
+    background-color: #17007e;
+    margin-top: 10px;
     border-radius: 20px;
+}
+.heroshop-home button:hover{
+    background-color: #FFFFFF;
+    color:#000000;
 }
 .head-home h1{
     width: 620px;
@@ -134,7 +124,7 @@ margin-top: -70px
     margin-top: -20px;
     margin-left: 200px;
 }
-/* Ð¦Ð°Ð°Ñˆ Ò¯Ð·ÑÑ… */
+
 .heads-home h1{
     width: 620px;
     height: 53px;
@@ -191,18 +181,15 @@ margin-top: -70px
     margin-left: 130px;
 }
 .heads-home{
-/* heads */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-position: relative;
-width: 375px;
-height: 125px;
-margin-top: 50px;
-margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 375px;
+    height: 125px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .bestshop{
@@ -258,16 +245,15 @@ margin-bottom: 50px;
     color: white; 
     border-radius: 10px; 
   }
-  
-  .info h3{
+.info h3{
     margin: 5px 0;
     font-size: 45px;
   }
-  .info p {
+.info p {
     margin: 5px 0;
     font-size: 24px;
   }
-  ._001A button {
+._001A button {
     padding: 15px 45px;
     position: absolute;
     background-color: #17007e;
@@ -275,17 +261,16 @@ margin-bottom: 50px;
     border-radius: 5px;
     color: white;
     cursor: pointer;
-    transition: #6a4ee7 0.3s ease;
+    transition: #6a4ee7 0.5s ease;
     justify-content: center;
     left: 20px;
     top: 200px;
     border-radius: 20px;
   }
-  
-  .info button:hover {
-    background-color: #ffffff;
-  }
-
+._001A button:hover{
+    background-color: white;
+    color: black;
+}
 ._002A {
     width: 337px;
     height: 285px;
@@ -295,7 +280,6 @@ margin-bottom: 50px;
     width: 337px;
     height: 285px;
     border-radius: 10px;
-    
 }
 ._003A {
     width: 331px;
@@ -307,8 +291,7 @@ margin-bottom: 50px;
     height: 590px;
     border-radius: 10px;
 }
-._004A,
-._005A {
+._004A, ._005A {
     width: 337px;
     height: 285px;
     flex: 0 0 auto;
@@ -317,9 +300,7 @@ margin-bottom: 50px;
     width: 337px;
     height: 285px;
     border-radius: 10px;
-    
 }
-
 ._005A{
     width:477px;
     margin-left: -140px;
@@ -389,48 +370,44 @@ margin-bottom: 50px;
     border: none;
     color: white;
     cursor: pointer;
-    transition: #6a4ee7 0.3s ease;
+    transition: #6a4ee7 0.5s ease;
     border-radius: 20px;
 }
-
-/* Ð¡Ò¯Ò¯Ð»Ð¸Ð¹Ð½ Ñ…Ð¾Ñ‘Ñ€ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ñ‚Ð¾Ð¼ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‚ÑÐ¹ Ð¼Ó©Ñ€Ó©Ð½Ð´ Ð±Ð°Ð¹Ñ€Ð»ÑƒÑƒÐ»Ð°Ñ… */
+.info1 button:hover{
+    background-color: white;
+    color: black;
+}
 @media (min-width: 1024px) {
     .category-home {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr; /* 3 Ð±Ð°Ð³Ð°Ð½Ð°Ñ‚Ð°Ð¹ */
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
-    }
-
-    ._003A {
-        grid-column: 3 / 3; /* Ð”ÑƒÐ½Ð´ Ð±Ð°Ð³Ð°Ð½Ñ‹Ð³ ÑÐ·Ð»ÑÑ… */
-        grid-row: 1 / span 2; /* 2 Ð¼Ó©Ñ€Ð¸Ð¹Ð³ ÑÐ·Ð»ÑÑ… */
-    }
-
-    ._004A {
-        grid-column: 1 / 2; /* Ð—Ò¯Ò¯Ð½ Ñ‚Ð°Ð»Ð´ Ð±Ð°Ð¹Ñ… */
-        grid-row: 2 / 3;
-    }
-
-    ._005A {
-        grid-column: 2 / 4; /* Ð‘Ð°Ñ€ÑƒÑƒÐ½ Ñ‚Ð°Ð»Ð´ Ð±Ð°Ð¹Ñ… */
-        grid-row: 2 / 3;
-    }
 }
 
+._003A {
+    grid-column: 3 / 3;
+    grid-row: 1 / span 2;
+}
+._004A {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    }
 
+._005A {
+    grid-column: 2 / 4; /* Ð‘Ð°Ñ€ÑƒÑƒÐ½ Ñ‚Ð°Ð»Ð´ Ð±Ð°Ð¹Ñ… */
+    grid-row: 2 / 3;
+    }
+}
 .head3-home{
-    /* head3 */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-position: relative;
-width: 891px;
-height: 125px;
-margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    width: 891px;
+    height: 125px;
+    margin-bottom: 50px;
 }
 
 .head3-home h1{
@@ -469,243 +446,252 @@ margin-bottom: 50px;
     margin-top: -20px;
 }
 
-    .bestseller-home{
-        position: relative;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr; /* 3 Ð±Ð°Ð³Ð°Ð½Ð°Ñ‚Ð°Ð¹ */
-        row-gap: 40px;
-        column-gap: 150px;
-        margin-bottom: 50px;
-}
-
-
-.itemA-home{
-/* itemA */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px 0px 22px;
-gap: 22px;
-
-width: 303px;
-height: 307px;
-left: 69px;
-top: 2100px;
-
-background: #1B3363;
-border-radius: 10px;
-}
-
-.itemB-home{
-/* itemB */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px 0px 22px;
-gap: 22px;
-
-width: 303px;
-height: 307px;
-left: 569px;
-top: 2100px;
-
-background: #1B3363;
-border-radius: 10px;
-}
-
-.itemC-home{
-/* itemC */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px 0px 22px;
-gap: 22px;
-
-width: 303px;
-height: 307px;
-left: 1069px;
-top: 2100px;
-
-background: #1B3363;
-border-radius: 10px;
-}
-
-.itemE-home{
-/* itemE */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px 0px 22px;
-gap: 22px;
-
-width: 303px;
-height: 307px;
-left: 69px;
-top: 2466px;
-
-background: #1B3363;
-border-radius: 10px;
-}
-
-.itemD-home{
-/* itemD */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px 0px 22px;
-gap: 22px;
-
-width: 303px;
-height: 307px;
-left: 571px;
-top: 2466px;
-
-background: #1B3363;
-border-radius: 10px;
-}
-
-.itemI-home{
-/* itemI */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px 0px 22px;
-gap: 22px;
-
-width: 303px;
-height: 307px;
-left: 1073px;
-top: 2467px;
-
-background: #1B3363;
-border-radius: 10px;
-}
-
-
-
-
-.banner2-home{
-/* banner2 */
-
-position: relative;
-display: flex;
-width: 1309px;
-height: 687px;
-background-color: black;
-margin-bottom: 50px;
-column-gap: 25px;
-}
-
-.zurag1-home{
-/* zurag1 */
-
-position: relative;
-
-width: 525px;
-height: 687px;
-/*background: url(idk_bagts.jpg);*/
-background-color: #1B3363;
-border-radius: 20px;
-}
-
-.zurag2-home{
-/* zurag2 */
-
-position: relative;
-
-width: 763px;
-height: 687px;
-/*
-background: url(erdenet gang.jpg);
-*/
-background-color: #1B3363;
-border-radius: 20px;
-}
-
-
-.zurag3-home{
-/* zurag3 */
-position: relative;
-
-width: 763px;
-height: 687px;
-/*
-background: url(erdenet gang.jpg);
-*/
-background-color: #1B3363;
-border-radius: 20px;
-}
-
-.zurag4-home{
-    /* zurag4 */
-position: relative;
-
-width: 525px;
-height: 687px;
-/*background: url(idk_bagts.jpg);*/
-background-color: #1B3363;
-border-radius: 20px;
-
-}
-
-
-.heads2-home{
-    /* heads2 */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-
-position: absolute;
-width: 891px;
-height: 125px;
-left: 275px;
-top: 4508px;
-background-color: yellow;
-}
-
-
-.zurag5-home{
-    /* zurag4 */
+.bestseller-home{
     position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 Ð±Ð°Ð³Ð°Ð½Ð°Ñ‚Ð°Ð¹ */
+    row-gap: 40px;
+    column-gap: 150px;
+    margin-bottom: 50px;
+}
+.itemA-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 22px;
+    gap: 22px;
+    width: 303px;
+    height: 307px;
+    left: 69px;
+    top: 2100px;
+    background: #1B3363;
+    border-radius: 10px;
+}
+.itemB-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 22px;
+    gap: 22px;
+    width: 303px;
+    height: 307px;
+    left: 569px;
+    top: 2100px;
+    background: #1B3363;
+    border-radius: 10px;
+}
+.itemC-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 22px;
+    gap: 22px;
+    width: 303px;
+    height: 307px;
+    left: 1069px;
+    top: 2100px;
+    background: #1B3363;
+    border-radius: 10px;
+}
+.itemE-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 22px;
+    gap: 22px;
+    width: 303px;
+    height: 307px;
+    left: 69px;
+    top: 2466px;
+    background: #1B3363;
+    border-radius: 10px;
+}
+.itemD-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 22px;
+    gap: 22px;
+    width: 303px;
+    height: 307px;
+    left: 571px;
+    top: 2466px;
+    background: #1B3363;
+    border-radius: 10px;
+}
+.itemI-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 22px;
+    gap: 22px;
+    width: 303px;
+    height: 307px;
+    left: 1073px;
+    top: 2467px;
+    background: #1B3363;
+    border-radius: 10px;
+}
+.banner2-home{
+    position: relative;
+    display: flex;
+    width: 1309px;
+    height: 687px;
+    margin-bottom: 50px;
+    column-gap: 25px;
+}
+.zurag1-home{
+    position: relative;
+}
 
+.zurag1-home img {
     width: 525px;
     height: 687px;
-    /*background: url(idk_bagts.jpg);*/
+    background-color: #1B3363;
+    border-radius: 20px;
+}
+.zurag1-home h3 {
+    font-family: 'Quicksand';
+    font-style: regular;
+    font-size: 45px;
+    color:#000000;
+    text-shadow: #FFFFFF;
+    margin-top: -300px;
+    margin-left: 20px;
+}
+.zurag1-home button {
+    margin-left: 25px;
+    margin-top: -20px;
+    position: absolute;
+    height:50px;
+    width: 140px;
+    background-color: #17007e;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: #6a4ee7 0.5s ease;
+    border-radius: 20px;
+}
+.zurag1-home button:hover{
+    background-color: white;
+    color: black;
+}
+
+.zurag2-home img {
+    position: relative;
+    width: 763px;
+    height: 687px;
+    background-color: #1B3363;
+    border-radius: 20px;
+}
+.zurag3-home img{
+    position: relative;
+    width: 763px;
+    height: 687px;
+    border-radius: 20px;
+}
+.zurag4-home img{
+    position: relative;
+    width: 525px;
+    height: 687px;
     background-color: #1B3363;
     border-radius: 20px;
 }
 
-.zurag6-home{
-    /* zurag6 */
+.zurag4-home h1{
     position: relative;
+    margin-top: -350px;
+    margin-left: 20px;
+    font-family: 'quicksand';
+    font-style: 'semibold';
+    font-size: 45px;
+    color: #ffffff;
+}
+.zurag4-home button{
+    position: relative; 
+    margin-left: 25px;
+    height:50px;
+    width: 140px;
+    background-color: #17007e;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border-radius: 20px;
+}
+.zurag4-home button:hover{
+    background-color: white;
+    color: black;
+}
+.heads2-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 891px;
+    height: 125px;
+    left: 275px;
+    top: 4508px;
+    background-color: yellow;
+}
+.zurag5-home{
+    position: relative;
+}
+.zurag5-home img{
+    width: 525px;
+    height: 687px;
+    border-radius: 20px;
+}
 
+.zurag5-home button {
+    display: relative;
+    position: absolute;
+    left: 40px;
+    bottom: 90px;
+    height:40px;
+    width: 160px;
+    background-color: #17007e;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border-radius: 20px;
+}
+.zurag5-home button:hover{
+    background-color: white;
+    color: black;
+}
+.zurag6-home{
+    position: relative;
+}
+.zurag6-home img {
     width: 763px;
     height: 687px;
-    /*
-    background: url(erdenet gang.jpg);
-    */
-    background-color: #1B3363;
     border-radius: 20px;
+}
+.zurag6-home button {
+    display: relative;
+    position: absolute;
+    left: 40px;
+    bottom: 90px;
+    height:40px;
+    width: 160px;
+    background-color: #17007e;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border-radius: 20px;
+}
+.zurag6-home button:hover{
+    background-color: white;
+    color: black;
 }
